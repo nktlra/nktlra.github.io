@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url(Property/bebek.png);
+    padding: 10px 10%;
+    overflow: hidden;
+    position: relative;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: #fff;
+    background-image: linear-gradient(45deg, #67b4eb, #9de46b);
+    font-size: 14px;
+    border-radius: 30px;
+    transition: 0.3s;
+    padding: 15px 80px;
+    font-size: 20px;
+    color: #222;
+}
+
+.btn:hover {
+    opacity:75%;
+    cursor: pointer;
+}
+
+.btn:active {
+    opacity: 50%;
+}
+
+.content {
+    margin-top: 6%;
+    max-width: 680px;
+}
+
+.content h1{
+    font-size: 70px;
+    color: #222;
+}
+
+.content p{
+    margin: 15px 0px 80px;
+    color: #333;
+    font-size: 18px;
+}
+
+
+.feature-img{
+    width: 390px;
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+}
+
+.video-1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+.caption {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 25px;
+    
+}
+
+.nav-ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-li {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.logo {
+    width: 80px;
+}
+
+b {
+    background-color: #82929b;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right:20px;
+    border-radius: 15px;
+}
+
+.feature-img-1 {
+    width: 450px;
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+}
